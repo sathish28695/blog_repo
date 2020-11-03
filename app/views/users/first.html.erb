@@ -1,0 +1,8 @@
+<% content_for :practice do %>
+  <%= "content_for called" %>
+<% end %>
+<% @users.each do |user| %>
+  <p> 
+    <%= user.name %>
+  </p>
+<% end %>
